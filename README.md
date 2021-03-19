@@ -1,6 +1,6 @@
 # React to-do list
 
-Here is a link to the working product: https://hevehan.github.io/Login
+Here is a link to the working product: https://hevehan.github.io/todo
 
 ## Thank you for your time and consideration of my application.
 
