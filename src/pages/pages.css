@@ -1,0 +1,203 @@
+*{
+    font-family: arial;
+}
+
+a{
+    text-decoration: none;
+}
+
+.detailsL {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 80%;
+  max-width: 450px;
+  position: relative;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  height: 46vh;
+}
+
+.detailsS {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 80%;
+    max-width: 450px;
+    position: relative;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    height: 50vh;
+}
+
+.underlineHover {
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+  
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #2c2b2b;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+}
+
+h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+}
+  
+.wrapper {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    min-height: 100%;
+}
+  
+  
+
+input[type=email],input[type=password] {
+    background-color: #f6f6f6;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    width: 70%;
+    border: 2px solid #f6f6f6;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.enter{
+    background-color: white;
+    color: Black;
+    cursor: pointer;
+    font-size: 24px;
+    justify-content: center;
+    letter-spacing: 2px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.dont{
+    color: rgb(0, 0, 0);
+    display: center;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+}
+
+.logout{
+    background-color: white;
+    color: Black;
+    cursor: pointer;
+    font-size: 24px;
+    justify-content: center;
+    letter-spacing: 2px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    left: 15px;
+    top: 12px;
+}
+
+.Todo{
+    color:black ;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    min-height: 100%;
+}
+
+input[type=text]{
+    background-color: #f6f6f6;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 70%;
+    border: 2px solid #f6f6f6;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.Todo{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    min-height: 100%;
+}
+
+.todo-wrapper{
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 80%;
+    max-width: 450px;
+    position: relative;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.add{
+    display:inline-block;
+    border:0.15em solid #b1b1b1;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:400;
+    color:#000000;
+    background-color:#ffffff;
+    text-align:center;
+    position:relative;
+    padding: 4px 10px;
+    font-size: 18px;
+}
+.add:hover{
+    border-color:#7a7a7a;
+}
+.add:active{
+    background-color:#cccccc;
+}
